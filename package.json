@@ -1,0 +1,14 @@
+{
+    "name": "static-server",
+    "version": "1.0.0",
+    "description": "a static resource server",
+    "scripts": {
+        "server": "node server.js"
+    },
+    "author": "tianjiachao",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "compression": "^1.7.1"
+    }
+}
