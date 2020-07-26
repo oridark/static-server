@@ -1,6 +1,6 @@
 var express = require('express');
 var crypto = require('crypto'); //引入加密模块
-var port = process.env.PORT || 8989;
+var port = process.env.PORT || 9898;
 var compression = require('compression');
 var config = require('./config'); //引入配置文件
 var app = express();
