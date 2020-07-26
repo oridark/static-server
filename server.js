@@ -6,6 +6,7 @@ var config = require('./config'); //引入配置文件
 var app = express();
 
 app.use(compression());
+app.use(require('connect-history-api-fallback')());
 app.use(express.static(__dirname+'/dist'));
 //用于处理所有进入 3000 端口 get 的连接请求
 app.get('/wx', function (req, res) {
